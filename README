@@ -1,0 +1,9 @@
+This is a simple utility designed to record from your microphone and write what
+is heard to an hourly mp3 file.
+
+As soon as the program runs it will start recording, close the program to stop
+recording and close the most recent file.
+
+Data is written directly to disk, but the file handle is not closed until the
+program has no need for the file anymore. If the program crashes you may lose
+up to an hours worth of data.
